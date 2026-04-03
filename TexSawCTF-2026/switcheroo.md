@@ -2,11 +2,11 @@ This is the first actual CTF challenge in reverse engineering that I was able to
 
 Basic checks:-
 
-![[Pasted image 20260403104855.png]]
+<img width="2267" height="82" alt="image" src="https://github.com/user-attachments/assets/c8170e3c-717d-4fad-8ad4-488ed3f3fbee" />
 
 The file is a 64 bit ELF, which we will try to reverse. The file is 'stripped' which means the name of functions and variables will all be obfuscated
 
-![[Pasted image 20260403104948.png]]
+<img width="954" height="55" alt="image" src="https://github.com/user-attachments/assets/46f14e7d-c15d-40bc-872f-672fa8a89fbc" />
 
 The input prompt is "Please make a compatible password:" and the code exits with the wrong password.
 
@@ -414,7 +414,8 @@ This is a complex looking function but we will go step by step:
  `strcmp()` will compare both the strings till it hits null byte, if you check ghidra the value stored in `'s_README.txt_00404060'` is `"README.txt\x00"`
   which is 11 bytes in total counting the null byte
 
-![[Pasted image 20260403112533.png]]
+<img width="472" height="101" alt="image" src="https://github.com/user-attachments/assets/554cce81-dcf2-447f-90b0-8286a46dacf0" />
+
   `&local_2b` is the address where` local_2b` starts, but it will not stop at local_2b since its a char, it will continue to the following contiguous memories till it hits null
   
   **Note-** We are not changing the actual values present in the input string, we are only performing calculations using variables local to this function
@@ -424,7 +425,8 @@ This is a complex looking function but we will go step by step:
   You can verify this by looking at the stack for this function, `local_2b` is present at offset `'rbp - 0x2b'` hence the name
   the other functions are ex `rbp - 0x2a`, `rbp - 0x29` and so on upto `rbp - 0x21`
   
-![[Pasted image 20260403112730.png]]
+<img width="391" height="199" alt="image" src="https://github.com/user-attachments/assets/ed30bf5e-6eb5-4ac8-bf2f-f8965dd507d0" />
+
 
 Always remember that the stack actually grows downwards, the top of the stack is at the lowest memory address. In the above snap, `local_2b` is present at the lowest memory which is at the top of stack and it is a `char` type. If you keep adding 1 to the stack, we will go from `local_2b` to `local_2a` since all of them are only a single byte long.
 
@@ -745,7 +747,8 @@ There is another possibility that input_string[5] might be -111 as well or 145 b
 Note:- However, right and left single quotes dont follow the modern encoding patterns so we will have to use the actual numbers directly like chr(0x91) or chr(0x92) in their place
 ```
 
-![[Pasted image 20260403114550.png]]
+<img width="217" height="112" alt="image" src="https://github.com/user-attachments/assets/a530fb48-448f-4c15-9192-e1ff374faa99" />
+
 
 ```
 (input_string[6] + '\x04') must be digit '7'
@@ -842,7 +845,8 @@ input_buff[0x14] = -75 which is 181 in 2s complement
 
 ###### Reversing methodology:-
 
-![[Pasted image 20260403115259.png]]
+<img width="1419" height="1092" alt="image" src="https://github.com/user-attachments/assets/55e6316a-f123-42b9-a55b-152351e1301a" />
+
 
 ```
 def shift_left(inp_str,offset):
