@@ -1,5 +1,5 @@
 
-![[Pasted image 20260419192750.png]]
+![](<./img/Pasted image 20260419192750.png>)
 
 The challenge file is actually a `User Profile Folder` from a windows machine.
 
@@ -18,7 +18,7 @@ History: SQLite 3.x database, last written using SQLite version 3035005, file co
 
 The file is a `SQLite 3.X` database. So we open it using `DB browser for SQLite` and run the following query to get the timestamps in the format specified.
 
-![[Pasted image 20260419125221.png]]
+![](<./img/Pasted image 20260419125221.png>)
 
 In entry number 2 of above output, the user searched about `Free RAM` in `bing` after which he clicked on a malicious site which has no domain name. Surely this must be the one we are looking for.
 
@@ -29,20 +29,20 @@ Flag - `CIT{2026-04-18T07:07:26Z}`
 
 # Autonomous - second challenge in the same chain
 
-[![[Pasted image 20260419193639.png]]](https://github.com/Ayush-Parab/CTF-Writeups/blob/a1770485ec3ed76ab6f95989c996b49ad0dce47a/CIT-CTF-2026/CIT-CTF-2026/img/Pasted%20image%2020260419193639.png)
+![](<./img/Pasted image 20260419193639.png>)
 
 We have to search for `ASN` of the given malicious website. `ASN` is the Autonomous System Number which is used for BGP, a dynamic routing protocol.
 
 A quick search on IPinfo for the given IP gives us the answer we are looking for!
 
-![[Pasted image 20260419125445.png]]
+![](<./img/Pasted image 20260419125445.png>)
 
 Flag - `CIT{399562}`
 
 
 # Ping Pong - 3rd challenge in this chain
 
-[![[Pasted image 20260419193944.png]]](https://github.com/Ayush-Parab/CTF-Writeups/blob/a1770485ec3ed76ab6f95989c996b49ad0dce47a/CIT-CTF-2026/CIT-CTF-2026/img/Pasted%20image%2020260419193944.png)
+![](<./img/Pasted image 20260419193944.png>)
 
 To find the answer, we need to check what was the script that was executed.
 
