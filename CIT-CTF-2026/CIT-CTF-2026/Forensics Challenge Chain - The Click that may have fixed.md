@@ -3,7 +3,7 @@
 
 The challenge file is actually a `User Profile Folder` from a windows machine.
 
-![[Pasted image 20260419192939.png]]
+[![[Pasted image 20260419192939.png]]](https://github.com/Ayush-Parab/CTF-Writeups/blob/a1770485ec3ed76ab6f95989c996b49ad0dce47a/CIT-CTF-2026/CIT-CTF-2026/img/Pasted%20image%2020260419192939.png)
 
 This challenge asks us the date and time at which a particular website was accessed and it also prompted the user to run a powershell command.
 
@@ -29,7 +29,7 @@ Flag - `CIT{2026-04-18T07:07:26Z}`
 
 # Autonomous - second challenge in the same chain
 
-![[Pasted image 20260419193639.png]]
+[![[Pasted image 20260419193639.png]]](https://github.com/Ayush-Parab/CTF-Writeups/blob/a1770485ec3ed76ab6f95989c996b49ad0dce47a/CIT-CTF-2026/CIT-CTF-2026/img/Pasted%20image%2020260419193639.png)
 
 We have to search for `ASN` of the given malicious website. `ASN` is the Autonomous System Number which is used for BGP, a dynamic routing protocol.
 
@@ -42,7 +42,7 @@ Flag - `CIT{399562}`
 
 # Ping Pong - 3rd challenge in this chain
 
-![[Pasted image 20260419193944.png]]
+[![[Pasted image 20260419193944.png]]](https://github.com/Ayush-Parab/CTF-Writeups/blob/a1770485ec3ed76ab6f95989c996b49ad0dce47a/CIT-CTF-2026/CIT-CTF-2026/img/Pasted%20image%2020260419193944.png)
 
 To find the answer, we need to check what was the script that was executed.
 
