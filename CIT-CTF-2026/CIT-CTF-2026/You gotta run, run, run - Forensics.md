@@ -1,4 +1,4 @@
-![](Pasted%20image%2020260419223715.png)
+![](./img/Pasted%20image%2020260419223715.png)
 
 The challenge file is a `Windows Registry` file. I used `Fred` to open it in Linux.
 
@@ -8,7 +8,7 @@ In windows registry, primary location for persistence for running items is
 
 We navigate here using `Fred`
 
-![](Pasted%20image%2020260419224017.png)
+![](./img/Pasted%20image%2020260419224017.png)
 
 OneDrive looks fine but take a look at `AzureTenant`...
 It is executing an `.exe` file called `fj3493.exe` which is definitely not normal.
