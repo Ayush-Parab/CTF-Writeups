@@ -3,7 +3,7 @@
 
 The challenge file is actually a `User Profile Folder` from a windows machine.
 
-[![[Pasted image 20260419192939.png]]](https://github.com/Ayush-Parab/CTF-Writeups/blob/a1770485ec3ed76ab6f95989c996b49ad0dce47a/CIT-CTF-2026/CIT-CTF-2026/img/Pasted%20image%2020260419192939.png)
+![](<./img/Pasted image 20260419192939.png>)
 
 This challenge asks us the date and time at which a particular website was accessed and it also prompted the user to run a powershell command.
 
