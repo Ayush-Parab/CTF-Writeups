@@ -1,4 +1,4 @@
-![[Pasted image 20260419184128.png]]
+![](<./img/Pasted image 20260419184128.png>)
 
 No other hint...
 Checked the `robots.txt` file in the ctf challenge domain
@@ -8,7 +8,7 @@ URL:-
 
 Inspect the page:-
 
-![[Pasted image 20260419184246.png]]
+![](<./img/Pasted image 20260419184246.png>)
 
 There you go!
 
