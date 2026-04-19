@@ -68,7 +68,7 @@ Flag - `CIT{unewhaven.com}`
 
 # Start Me Up - Last challenge in this chain
 
-![](<CIT-CTF-2026/CIT-CTF-2026/img/Pasted image 20260419194448.png>)
+![](<./img/Pasted image 20260419194448.png>)
 
 We have to check for persistence! The title suggests that the malicious script `DiskCleaner.ps1` we saw in the previous challenge has been set to run automatically on startup for persistence.
 
