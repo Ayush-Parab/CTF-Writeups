@@ -7,10 +7,15 @@ We will use this site to try and crack the password `https://cryptii.com/pipes/e
 ![](<./img/Pasted image 20260419190050.png>)
 
 Model - Enigma M3
+
 Reflector - UKW B
+
 Rotors - I, II, III
+
 Positions - A,A,A
+
 Ring - A,A,A
+
 Plugboard - empty
 
 Output:-
