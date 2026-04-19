@@ -1,4 +1,4 @@
-![](Pasted%20image%2020260419223503.png)
+![](./img/Pasted%20image%2020260419223503.png)
 
 A quick google search leads us to the site of `Department of Energy`
 
