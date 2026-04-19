@@ -1,10 +1,10 @@
-![[Pasted image 20260419185720.png]]
+![](<./img/Pasted image 20260419185720.png>)
 
 The hint is in the name of the challenge itself `rotor` which suggests it is a enigma machine cipher.
 
 We will use this site to try and crack the password `https://cryptii.com/pipes/enigma-machine/`
 
-![[Pasted image 20260419190050.png]]
+![](<./img/Pasted image 20260419190050.png>)
 
 Model - Enigma M3
 Reflector - UKW B
