@@ -1,8 +1,8 @@
-![[Pasted image 20260419191613.png]]
+![](<./img/Pasted image 20260419191613.png>)
 
 The image:-
 
-![[Pasted image 20260419191738.png]]
+![](<./img/Pasted image 20260419191738.png>)
 
 If you zoom in and look closely, you can see that the stadium name `Fenway Park` is written on the scoreboard as well as the team name `Red Sox`
 
@@ -14,7 +14,7 @@ We search for the website of `Fenway Park` and look for its map with all the sec
 
 Site - `https://www.mlb.com/redsox/ballpark/concourse-map`
 
-![[Pasted image 20260419192316.png]]
+![](<./img/Pasted image 20260419192316.png>)
 
 If we look at the position of the fielders and the `D` of the ground in the given picture, we can narrow down to a few sections present in the bottom right i.e. 5,6,7,8.
 
