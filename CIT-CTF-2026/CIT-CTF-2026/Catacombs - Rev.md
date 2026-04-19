@@ -1,4 +1,4 @@
-![[Pasted image 20260419190910.png]]
+![](<./img/Pasted image 20260419190910.png>)
 
 No real hint, just the file.
 
@@ -12,14 +12,14 @@ Since the file is statically linked, it has a lot of noise and is of a bigger si
 
 On running the file to check what it does:-
 
-![[Pasted image 20260419191128.png]]
+![](<./img/Pasted image 20260419191128.png>)
 
 We see `ACCESS DENIED` which means if the string is correct, we might get something like `ACCESS GRANTED`
 
 
 ###### Analysis in `ghidra`:-
 
-![[Pasted image 20260419191247.png]]
+![](<./img/Pasted image 20260419191247.png>)
 
 We found the section of the code which prints `ACCESS DENIED` and `ACCESS GRANTED` in the `main` function itself.
 The flag is present in plain sight!
