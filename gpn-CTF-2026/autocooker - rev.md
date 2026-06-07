@@ -1,4 +1,4 @@
-![](Pasted%20image%2020260607011829.png)
+![](./images/Pasted%20image%2020260607011829.png)
 
 This is a 64-bit ELF file which is dynamically linked and not stripped. It was an easy problem.
 
