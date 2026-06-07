@@ -50,7 +50,7 @@ We have to enter our `recipe` when the binary runs which will be our flag. This 
 `FOOD` variable copies the value stored in `RECIPE` which is our input.
 After that a few lines of `DAT.... = DAT....` all those values are null bytes itself.
 
-![](Pasted%20image%2020260607012247.png)
+![](./images/Pasted%20image%2020260607012247.png)
 
 We can see that in the end there is a line saying that the flag is correctly entered. We will look at all the functions called in between one by one.
 
@@ -110,7 +110,7 @@ Looking at the value present in `DELICIOUS` we observe the following bytes
 
 Exactly 64 in number.
 
-![](Pasted%20image%2020260607012952.png)
+![](./images/Pasted%20image%2020260607012952.png)
 
 It continues till byte 64.
 
@@ -137,7 +137,7 @@ void salt(void)
 Here we are replacing each character of our input stored in `FOOD` with a value `character XOR GRAIN_OF_SALT`.
 Value stored in `GRAIN_OF_SALT` is `0xAA` 
 
-![](Pasted%20image%2020260607013321.png)
+![](./images/Pasted%20image%2020260607013321.png)
 
 This can be reversed using the laws of XOR. 
 
